@@ -1,0 +1,280 @@
+
+/*.column1
+{
+background-image: url("Image/background.png");
+ }*/
+
+
+.WebContainer{
+    width: 100%;
+    height: auto;
+}
+
+/* Style the header */
+.header {
+  background-color:black;
+  padding: 20px;
+  text-align: center;
+  color:black;
+}
+
+
+
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: black;
+  text-align: center;
+}
+
+/* Style the topnav links */
+.topnav a {
+  color: gold;
+  font-size:50px;
+  font-family: Bungee Shade;
+  text-align: center;
+  
+    animation: fadein 10s;
+    -moz-animation: fadein 10s; /* Firefox */
+    -webkit-animation: fadein 10s; /* Safari and Chrome */
+    -o-animation: fadein 10s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+
+
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: black;
+  color: gold;
+}
+
+.align-items-start
+{
+  background-color: gold;
+}
+
+/* Create three unequal columns that floats next to each other 
+.column {
+  height: 900px;
+}*/
+
+/* Left and right column 
+.column-side {
+ width: 10%;
+  background-size: auto;
+   background-color: gold;
+ height: 900px;
+}*/
+
+/* Middle column 
+.column-middle {
+  width: 80%;
+  height: 900px;
+  background-color: black;
+  position: relative;
+  background-repeat: no-repeat;
+}*/
+
+/*.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+*/
+
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  height: 50px;
+  border-radius: 2px;
+}
+
+
+
+.fa-instagram:before {
+  font-size:50px;
+  color: transparent;
+  padding:5px;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  z-index: -2;
+    animation: fadein 20s;
+    -moz-animation: fadein 20s; /* Firefox */
+    -webkit-animation: fadein 20s; /* Safari and Chrome */
+    -o-animation: fadein 20s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+
+
+}
+  
+
+
+.fa-twitter:before {
+  color: #38A1F3;
+  font-size:50px;
+z-index: -2;
+padding:5px;
+  animation: fadein 20s;
+    -moz-animation: fadein 20s; /* Firefox */
+    -webkit-animation: fadein 20s; /* Safari and Chrome */
+    -o-animation: fadein 20s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+
+
+}
+
+.fa-twitch:before {
+  color:#6441a5;
+  z-index: -2;
+  padding:5px;
+    animation: fadein 20s;
+    -moz-animation: fadein 20s; /* Firefox */
+    -webkit-animation: fadein 20s; /* Safari and Chrome */
+    -o-animation: fadein 20s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+
+
+}
+
