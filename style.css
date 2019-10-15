@@ -132,8 +132,11 @@ background-image: url("Image/background.png");
   background-color: black;
   color: white;
   text-align: center;
-  height: 50px;
   border-radius: 2px;
+    clear: both;
+    position: relative;
+    height: 200px;
+    margin-top: -200px;
 }
 
 
